@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentation.View">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="4f6b" binding="tabs">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6697933"/>
+          <foreground color="-16750951"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3402e" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="MENU"/>
+            </constraints>
+            <properties>
+              <background color="-3355444"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="53f3f" class="javax.swing.JLabel" binding="welcomeMessage1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16764058"/>
+                  <foreground color="-16764058"/>
+                  <text value="HELLO AND WELCOME!"/>
+                </properties>
+              </component>
+              <component id="36fdf" class="javax.swing.JLabel" binding="welcomeMessage2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16764058"/>
+                  <foreground color="-16764058"/>
+                  <text value="What do you want to do next?"/>
+                </properties>
+              </component>
+              <component id="40f16" class="javax.swing.JButton" binding="manageClientsButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="MANAGE CLIENTS"/>
+                </properties>
+              </component>
+              <component id="6e4c3" class="javax.swing.JButton" binding="manageProductsButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="MANAGE PRODUCTS"/>
+                </properties>
+              </component>
+              <component id="22ebe" class="javax.swing.JButton" binding="manageOrdersButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="MANAGE ORDERS"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="cd342" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="MANAGE CLIENTS"/>
+            </constraints>
+            <properties>
+              <background color="-3355444"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ed147" class="javax.swing.JButton" binding="newClientButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="ADD NEW CLIENT"/>
+                </properties>
+              </component>
+              <component id="236fb" class="javax.swing.JButton" binding="deleteClientButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="DELETE CLIENT"/>
+                </properties>
+              </component>
+              <component id="57d15" class="javax.swing.JButton" binding="showClientsButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="SHOW CLIENTS LIST"/>
+                </properties>
+              </component>
+              <component id="13340" class="javax.swing.JButton" binding="backButton1">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="back to menu"/>
+                </properties>
+              </component>
+              <component id="29681" class="javax.swing.JButton" binding="editClientButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="EDIT CLIENT DATA"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="94a8" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="MANAGE PRODUCTS"/>
+            </constraints>
+            <properties>
+              <background color="-3355444"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8b0bf" class="javax.swing.JButton" binding="addNewProductButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="ADD NEW PRODUCT"/>
+                </properties>
+              </component>
+              <component id="bae8a" class="javax.swing.JButton" binding="deleteProductButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="DELETE PRODUCT"/>
+                </properties>
+              </component>
+              <component id="97b38" class="javax.swing.JButton" binding="editProductButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="EDIT PRODUCT DATA"/>
+                </properties>
+              </component>
+              <component id="24a45" class="javax.swing.JButton" binding="showProductsButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="SHOW PRODUCT LIST"/>
+                </properties>
+              </component>
+              <component id="42885" class="javax.swing.JButton" binding="backButton2">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="back to menu"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ebff8" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="MANAGE ORDERS"/>
+            </constraints>
+            <properties>
+              <background color="-3355444"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="58bc5">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="e2325" class="javax.swing.JButton" binding="backButton3">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="back to menu"/>
+                </properties>
+              </component>
+              <component id="c24ac" class="javax.swing.JButton" binding="addNewOrderButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="PLACE ORDER"/>
+                </properties>
+              </component>
+              <component id="d4e86" class="javax.swing.JButton" binding="showOrdersButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="SHOW ORDERS HISTORY"/>
+                </properties>
+              </component>
+              <component id="80be4" class="javax.swing.JButton" binding="deleteOrderButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16750951"/>
+                  <foreground color="-52"/>
+                  <text value="DELETE ORDER"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
